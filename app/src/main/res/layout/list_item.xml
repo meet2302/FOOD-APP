@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#FFFF00"
+    tools:ignore="UselessParent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="153dp"
+            android:layout_height="109dp"
+            android:layout_marginRight="60dp"
+            android:background="#fff"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="185dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/imageview"
+            android:text="apple"
+            android:textColor="#900A0A"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="183dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/textview1"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Noodles"
+            android:textColor="#900A0A" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="49dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginRight="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_baseline_add_box_24" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
